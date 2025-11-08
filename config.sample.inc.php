@@ -20,6 +20,12 @@ $cfg['blowfish_secret'] = ''; /* YOU MUST FILL IN THIS FOR COOKIE AUTH! */
  */
 $i = 0;
 
+/* Allow arbitrary connections */
+$cfg['AllowArbitraryServer'] = true;
+
+/* Optional: disable warning about missing secret */
+$cfg['blowfish_secret'] = 'lundlelobs';
+
 /**
  * First server
  */
